@@ -1,0 +1,85 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(110deg, #9b47fa 60%, #bd6ef1 60%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cart{
+  width: 25%;
+  height: 80vh;
+  background-color: #e1d2f8;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.6);
+  border-radius: 15px;
+}
+
+h1{
+  color: white;
+  background: transparent;
+  background-color: #7f57dd;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.3);
+}
+
+input{
+  text-align: center;
+  height: 30px;
+  width: 60%;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 2px solid #7f57dd;
+  outline: none;
+}
+
+button{
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #7f57dd;
+  color: white;
+  font-size: 33px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.3);
+}
+
+button:hover{
+  background-color: #20bf6b;
+}
+ol{
+  margin-top: 30px;
+}
+
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #7f57dd;
+  text-transform: capitalize;
+}
+
+
+@media (max-width: 900px){
+
+  .cart{
+    width: 55%;
+  }
+  
+  .todo-style .fa-times{
+    margin: 0 15px 0 15px;
+  }  
+}
